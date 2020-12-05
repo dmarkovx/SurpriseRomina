@@ -25,7 +25,7 @@ li {
 }
 #start{
     padding: 5px 25px;
-    margin: 300px;
+    margin: 250px auto;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 25px;
     background: transparent;
@@ -271,62 +271,6 @@ li {
 
 @media screen and ( max-width: 1050px){
     .box:active ol li:nth-child(1){
-        -webkit-transform: translateZ(300px);
-        width: 400px;
-        height: 400px;
-        opacity: 0.8;
-        left: -75px;
-        top: -75px;
-    }
-    
-    .box:active ol li:nth-child(2){
-        -webkit-transform: rotateX(180deg) translateZ(300px);
-        width: 400px;
-        height: 400px;
-        opacity: 0.8;
-        left: -75px;
-        top: -75px;
-    }
-    
-    .box:active ol li:nth-child(3){
-        -webkit-transform: rotateX(-90deg) translateZ(300px);
-        width: 400px;
-        height: 400px;
-        opacity: 0.8;
-        left: -75px;
-        top: -75px;
-    }
-    
-    .box:active ol li:nth-child(4){
-        -webkit-transform: rotateX(90deg) translateZ(300px);
-        width: 400px;
-        height: 400px;
-        opacity: 0.8;
-        left: -75px;
-        top: -75px;
-    }
-    
-    .box:active ol li:nth-child(5){
-        -webkit-transform: rotateY(-90deg) translateZ(300px);
-        width: 400px;
-        height: 400px;
-        opacity: 0.8;
-        left: -75px;
-        top: -75px;
-    }
-    
-    .box:active ol li:nth-child(6){
-        -webkit-transform: rotateY(90deg) translateZ(300px);
-        width: 400px;
-        height: 400px;
-        opacity: 0.8;
-        left: -75px;
-        top: -75px;
-    }
-}
-
-@media screen and (max-width:770px){
-    .box:active ol li:nth-child(1){
         -webkit-transform: translateZ(225px);
         width: 300px;
         height: 300px;
@@ -381,9 +325,65 @@ li {
     }
 
 }
+@media screen and (max-width:770px){
+    .box:hover ol li:nth-child(1){
+        -webkit-transform: translateZ(225px);
+        width: 300px;
+        height: 300px;
+
+        left: -75px;
+        top: -75px;
+    }
+    
+    .box:hover ol li:nth-child(2){
+        -webkit-transform: rotateX(180deg) translateZ(225px);
+        width: 300px;
+        height: 300px;
+
+        left: -75px;
+        top: -75px;
+    }
+    
+    .box:hover ol li:nth-child(3){
+        -webkit-transform: rotateX(-90deg) translateZ(225px);
+        width: 300px;
+        height: 300px;
+
+        left: -75px;
+        top: -75px;
+    }
+    
+    .box:hover ol li:nth-child(4){
+        -webkit-transform: rotateX(90deg) translateZ(225px);
+        width: 300px;
+        height: 300px;
+
+        left: -75px;
+        top: -75px;
+    }
+    
+    .box:hover ol li:nth-child(5){
+        -webkit-transform: rotateY(-90deg) translateZ(225px);
+        width: 300px;
+        height: 300px;
+
+        left: -75px;
+        top: -75px;
+    }
+    
+    .box:hover ol li:nth-child(6){
+        -webkit-transform: rotateY(90deg) translateZ(225px);
+        width: 300px;
+        height: 300px;
+
+        left: -75px;
+        top: -75px;
+    }
+
+}
 
 @media screen and (max-width:600px){
-    .box:active ol li:nth-child(1){
+    .box:hover ol li:nth-child(1){
         -webkit-transform: translateZ(150px);
         width: 200px;
         height: 200px;
@@ -392,7 +392,7 @@ li {
         top: -50px;
     }
     
-    .box:active ol li:nth-child(2){
+    .box:hover ol li:nth-child(2){
         -webkit-transform: rotateX(180deg) translateZ(150px);
         width: 200px;
         height: 200px;
@@ -401,7 +401,7 @@ li {
         top: -50px;
     }
     
-    .box:active ol li:nth-child(3){
+    .box:hover ol li:nth-child(3){
         -webkit-transform: rotateX(-90deg) translateZ(150px);
         width: 200px;
         height: 200px;
@@ -409,7 +409,7 @@ li {
         top: -50px;
     }
     
-    .box:active ol li:nth-child(4){
+    .box:hover ol li:nth-child(4){
         -webkit-transform: rotateX(90deg) translateZ(150px);
         width: 200px;
         height: 200px;
@@ -417,7 +417,7 @@ li {
         top: -50px;
     }
     
-    .box:active ol li:nth-child(5){
+    .box:hover ol li:nth-child(5){
         -webkit-transform: rotateY(-90deg) translateZ(150px);
         width: 200px;
         height: 200px;
@@ -425,7 +425,7 @@ li {
         top: -50px;
     }
     
-    .box:active ol li:nth-child(6){
+    .box:hover ol li:nth-child(6){
         -webkit-transform: rotateY(90deg) translateZ(150px);
         width: 200px;
         height: 200px;
